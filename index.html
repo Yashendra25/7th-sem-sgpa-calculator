@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>SGPA Calculator</title>
+</head>
+<body>
+    <div class="calculator-container">
+        <h1>SGPA Calculator</h1>
+        <form id="sgpa-form">
+            <div class="subject-input">
+                <label for="subject-1">Industrial Summer Training</label>
+                <select id="subject-1" class="grade-dropdown">
+                    <option value="Qualified">Qualified</option>
+                    <option value="Disqualified">Disqualified</option>
+                    
+                </select>
+                <span class="credits">2.00</span>
+            </div>
+
+            <div class="subject-input">
+                <label for="subject-2">Computer Vision Lab</label>
+                <select id="subject-2" class="grade-dropdown">
+                    
+                    <option value="A+">A+</option>
+                    <option value="A">A</option>
+                    <option value="B+">B+</option>
+                    <option value="B">B</option>
+                    <option value="C+">C+</option>
+                    <option value="C">C</option>
+                    <option value="D">D</option>
+                    <option value="E">E</option>
+                </select>
+                <span class="credits">1.00</span>
+            </div>
+
+            <div class="subject-input">
+                <label for="subject-3">Project-IV</label>
+                <select id="subject-3" class="grade-dropdown">
+                    
+                    <option value="A+">A+</option>
+                    <option value="A">A</option>
+                    <option value="B+">B+</option>
+                    <option value="B">B</option>
+                    <option value="C+">C+</option>
+                    <option value="C">C</option>
+                    <option value="D">D</option>
+                    <option value="E">E</option>
+                    
+                </select>
+                <span class="credits">3.00</span>
+            </div>
+
+            <div class="subject-input">
+                <label for="subject-4">Cloud Computing</label>
+                <select id="subject-4" class="grade-dropdown">
+                    
+                    <option value="A+">A+</option>
+                    <option value="A">A</option>
+                    <option value="B+">B+</option>
+                    <option value="B">B</option>
+                    <option value="C+">C+</option>
+                    <option value="C">C</option>
+                    <option value="D">D</option>
+                    <option value="E">E</option>
+                </select>
+                <span class="credits">3.00</span>
+            </div>
+            
+            <div class="subject-input">
+                <label for="subject-5">Blockchain Technology</label>
+                <select id="subject-5" class="grade-dropdown">
+                  
+                    <option value="A+">A+</option>
+                    <option value="A">A</option>
+                    <option value="B+">B+</option>
+                    <option value="B">B</option>
+                    <option value="C+">C+</option>
+                    <option value="C">C</option>
+                    <option value="D">D</option>
+                    <option value="E">E</option>
+                </select>
+                <span class="credits">3.00</span>
+            </div>
+            
+            <div class="subject-input">
+                <label for="subject-6">Computer Vision</label>
+                <select id="subject-6" class="grade-dropdown">
+                 
+                    <option value="A+">A+</option>
+                    <option value="A">A</option>
+                    <option value="B+">B+</option>
+                    <option value="B">B</option>
+                    <option value="C+">C+</option>
+                    <option value="C">C</option>
+                    <option value="D">D</option>
+                    <option value="E">E</option>
+                </select>
+                <span class="credits">2.00</span>
+            </div>
+            
+            <div class="subject-input">
+                <label for="subject-7">Environmental Science and Disaster Management</label>
+                <select id="subject-7" class="grade-dropdown">
+                    <option value="Qualified">Qualified</option>
+                    <option value="Disqualified">Disqualified</option>
+                </select>
+                <span class="credits">2.00</span>
+            </div>
+            
+            <div class="subject-input">
+                <label for="subject-8">ELECTRICAL ENERGY CONSERVATION AND AUDITING</label>
+                <select id="subject-8" class="grade-dropdown">
+                    
+                    <option value="A+">A+</option>
+                    <option value="A">A</option>
+                    <option value="B+">B+</option>
+                    <option value="B">B</option>
+                    <option value="C+">C+</option>
+                    <option value="C">C</option>
+                    <option value="D">D</option>
+                    <option value="E">E</option>
+                </select>
+                <span class="credits">3.00</span>
+            </div>
+            
+            <!-- ... (Continue with other subjects as needed) ... -->
+            
+            <button type="button" onclick="calculateSGPA()">Submit</button>
+            </form>
+            
+            <p id="result"></p>
+            </div>
+            
+            <script src="script.js"></script>
+            </body>
+            </html>
